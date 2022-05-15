@@ -1,0 +1,16 @@
+Entity,Low trusters,Medium trusters,High trusters
+$75K or more,25.0,nan,30.0
+"$30K-$74, 999",36.0,40.0,22.0
+Under $30K,nan,40.0,nan
+Postgraduate,20.0,44.0,33.0
+Bachelor's degree,24.0,46.0,29.0
+Some college,nan,39.0,22.0
+High school for less,nan,40.0,15.0
+65+,19.0,40.0,37.0
+50-64,3.1,41.0,25.0
+30-49,39.0,41.0,18.0
+Ages 18-29,46.0,nan,nan
+Hispanic,46.0,40.0,12.0
+Black,44.0,41.0,13.0
+White,nan,nan,27.0
+All adults,35.0,41.0,22.0

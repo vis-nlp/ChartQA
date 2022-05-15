@@ -1,0 +1,8 @@
+Entity,Should not include,Should include
+65+,63,35.0
+50-64,61,nan
+30-49,56,43.0
+Ages 18-29,46,53.0
+Dem/Lean Dem,39,nan
+Rep/Lean Rep,79,nan
+All adults,56,nan

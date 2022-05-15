@@ -1,0 +1,18 @@
+Entity,Some or none,Most or all
+Urban,54,46.0
+Suburban,45,55.0
+Rural,40,59.0
+HS or less,57,43.0
+Some college,48,nan
+College+,34,66.0
+$30K,63,nan
+$30K-$ 75K,45,55.0
+$75K+,33,nan
+18-29,61,39.0
+3049,49,50.0
+5064,46,54.0
+Ages 65+,26,73.0
+Hispanic,72,27.0
+Black,68,31.0
+White,38,nan
+TOTAL,48,52.0

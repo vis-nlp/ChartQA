@@ -1,0 +1,9 @@
+Entity,Not atall,Not very,Somewhat,Very,NET likely
+Nurse,34.0,46,16,20.0,0.0
+Own job or profession,30.0,40,23,30.0,0.0
+Teacher,26.0,38,26,10.0,36.0
+Construction worker,19.0,39,32,10.0,nan
+Legal clerk,nan,38,36,nan,50.0
+Software engineer,nan,35,38,15.0,53.0
+Insurance claims Software engineer,nan,35,27,38.0,nan
+Fast food worker,617.0,17,39,38.0,nan

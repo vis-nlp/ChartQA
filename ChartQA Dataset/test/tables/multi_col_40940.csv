@@ -1,0 +1,13 @@
+Characteristic,Abortion,Direct obstetric causes,Indirect obstetric causes
+Abortion,0.4,-,-
+"Hypertension, edema or proteinuria",-,0.7,-
+"Sepsis, other infections and complications related to puerperium",-,0.4,-
+Postpartum hemorrhage,-,0.1,-
+"Placenta praevia, placental abruption or antepartum hemorrhage",-,0.1,-
+Obstetric death of unspecified cause,-,0.2,-
+Other direct obstetric causes,-,0.3,-
+Cardiovascular disease,-,-,0.3
+Respiratory disease,-,-,0.2
+Digestive disease,-,-,0.1
+VIH/AIDS,-,-,0
+Other indirect obstetric causes,-,-,0.2

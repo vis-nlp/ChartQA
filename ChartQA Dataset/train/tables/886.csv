@@ -1,0 +1,14 @@
+Entity,Bad,Good
+15 COUNTRY MEDIAN,58.0,nan
+Argentina,63.0,nan
+Brazil Argentina,63.0,52.0
+Mexico Brazil Argentina,63.0,52.0
+Mexico Brazil gentina,63.0,52.0
+Nigeria,60.0,38.0
+Kenya Nigeria,60.0,58.0
+South Africa,51.0,45.0
+Turkey,70.0,nan
+Israel Lebanon Tunisia Turkey,70.0,66.0
+Japan Indonesia South Korea,nan,59.0
+India,4.0,nan
+Philippines India,4.0,46.0

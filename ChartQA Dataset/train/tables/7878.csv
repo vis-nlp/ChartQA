@@ -1,0 +1,8 @@
+Entity,Very strong,Strong,Not very strong,No conflicts
+College grads & non-college grads,10,26,33.0,24.0
+People in cities & people in rural areas,13,27,29.0,23.0
+Young & folder people,13,27,40.0,nan
+Immigrants & U.S-born,24,35,28.0,nan
+Blacks & whites,26,40,24.0,nan
+Rich & poor,30,33,25.0,nan
+Democrats & Republicans,56,29,nan,nan

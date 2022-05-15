@@ -1,0 +1,8 @@
+Entity,Unfavorable,Favorable
+50+ 64,nan,27.0
+30-49,51.0,nan
+18-29,39.0,55.0
+Democrat,50.0,nan
+Independent,51.0,42.0
+Republican,63.0,27.0
+TOTAL,54.0,38.0

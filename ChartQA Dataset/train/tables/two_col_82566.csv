@@ -1,0 +1,6 @@
+Characteristic,Number of companies
+Micro (less than 4 employees),377
+Small (5-25 employees),213
+Medium (26-59 employees),35
+Large (60-99 employees),30
+Very large (more than 100 employees),37

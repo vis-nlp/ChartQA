@@ -1,0 +1,4 @@
+Entity,Value
+"Screen lock, No screen lock never updates regularly apps/OS updates",nan
+"No  screen lock, never updates apps/os",3.0
+"Screen lock, updates apps/OS, but only when convenient",75.0

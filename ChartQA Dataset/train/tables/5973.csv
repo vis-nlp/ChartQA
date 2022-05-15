@@ -1,0 +1,11 @@
+Entity,Disapprove,Approve
+Less tha n $30 LOOO,29.0,nan
+$75 LOOO or more $30 LO00-$74 9999 Less than $30 000,nan,40.0
+Family income $75 000 or more $30 LO00-$74 9999 Less tha $30 LOOO n,nan,40.0
+Postgrad College grad Some coll HS for less,nan,39.0
+18-29 30-49,38.0,25.0
+Black Hispanic,22.0,nan
+White Black Hispa nic,nan,22.0
+Women,nan,nan
+Men,45.0,50.0
+Total,38.0,56.0

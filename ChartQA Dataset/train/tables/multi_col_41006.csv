@@ -1,0 +1,7 @@
+Characteristic,Low estimate,High estimate
+eMMC/UFS (consumer electronics),5%,10%
+eMMC/UFS (mobile),0%,3%
+Enterprise SSD,10%,15%
+Client SSD,5%,10%
+2D NAND Flash (package),5%,10%
+3D NAND Flash (wafer),0%,5%

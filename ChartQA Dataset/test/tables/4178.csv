@@ -1,0 +1,12 @@
+Entity,Did not wait,<10 minutes,<10 minutes.1,10-30 mins,Over 30 mins
+Rural,51.0,32,13,0.0,0
+Suburban,45.0,34,15,0.0,0
+Urban,46.0,33,13,0.0,0
+West,53.0,28,13,0.0,0
+South,40.0,34,18,0.0,0
+Midwest,50.0,31,15,0.0,0
+Northeast,52.0,36,0,0.0,0
+Hispanic,39.0,31,20,0.0,0
+Black,43.0,29,18,nan,0
+White,50.0,32,13,nan,0
+Total,nan,33,14,nan,0
