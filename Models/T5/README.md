@@ -31,3 +31,24 @@ python -m torch.distributed.run --nproc_per_node 1 run_T5.py \
 --overwrite_output_dir \
 --max_source_length=1024
 ```
+
+
+
+# Prediction
+You need to first prepare the test dataset file as mentioned above (e.g., [example-csv-file](https://github.com/vis-nlp/ChartQA/blob/main/Figures%20and%20Examples/T5%20and%20VL-T5%20Input%20File%20Examples.csv)). Then, you can run the following command
+
+```
+!python -m torch.distributed.run --nproc_per_node 1 run_T5.py \
+--model_name_or_path path-to-checkpoint/ \
+--do_predict \
+--test_file path-to-file.csv \
+--text_column Input \
+--summary_column Output \
+--source_prefix "" \
+--output_dir path-to-output/ \
+--per_device_eval_batch_size=192 \
+--predict_with_generate=True \
+--max_source_length=1024
+```
+
+ <strong>Note:</strong> The metric in this run_T5.py file is the exact accuracy which is different from the relaxed accuracy measure described in the paper. Hence, you will still need to evaluate the generated predictions using the relaxed accuracy. 
