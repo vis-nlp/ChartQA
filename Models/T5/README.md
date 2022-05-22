@@ -51,4 +51,4 @@ You need to first prepare the test dataset file as mentioned above (e.g., [examp
 --max_source_length=1024
 ```
 
- <strong>Note:</strong> The metric in this run_T5.py file is the exact accuracy which is different from the relaxed accuracy measure described in the paper. Hence, you will still need to evaluate the generated predictions using the relaxed accuracy. 
+ <strong>Note:</strong> The metric in this [run_T5.py](https://github.com/vis-nlp/ChartQA/blob/main/Models/T5/run_T5.py) file is the exact accuracy which is different from the relaxed accuracy measure described in the paper. Hence, you will still need to evaluate the generated predictions using the relaxed accuracy. 
