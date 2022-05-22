@@ -6,8 +6,8 @@ In order to train the T5 model on any ChartQA dataset, you need to:
 * Run the following command with your prefered hyperparameters.
 
 `python -m torch.distributed.run --nproc_per_node 1 run_T5.py \ <br/>
---model_name_or_path t5-base \
---do_train \
+  --model_name_or_path t5-base \
+  --do_train \
 --do_eval \
 --do_predict \
 --train_file /path-to-files/train.csv \
