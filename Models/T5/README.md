@@ -2,7 +2,7 @@
 # Training the T5 Model
 
 In order to train the T5 model on any ChartQA dataset, you need to: 
-* Prepare the training, validation, and test csv files (e.g., [example-csv-file]([https://github.com/vis-nlp/ChartQA/tree/main/Figures%20and%20Examples](https://github.com/vis-nlp/ChartQA/blob/main/Figures%20and%20Examples/T5%20and%20VL-T5%20Input%20File%20Examples.csv)). The Input Column should contain the question and flatenned data table. The Output colum should contain the final answer. 
+* Prepare the training, validation, and test csv files (e.g., [example]([https://github.com/vis-nlp/ChartQA/tree/main/Figures%20and%20Examples](https://github.com/vis-nlp/ChartQA/blob/main/Figures%20and%20Examples/T5%20and%20VL-T5%20Input%20File%20Examples.csv)). The Input Column should contain the question and flatenned data table. The Output colum should contain the final answer. 
 * Run the following command with your prefered hyperparameters.
 
 `
