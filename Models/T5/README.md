@@ -1,4 +1,5 @@
 
+This repo is adapted from [Transformers-T5](https://github.com/huggingface/transformers/tree/main/examples/pytorch)
 # Training the T5 Model
 
 In order to train the T5 model on any ChartQA dataset, you need to: 
