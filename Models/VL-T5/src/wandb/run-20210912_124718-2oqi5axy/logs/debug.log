@@ -1,0 +1,101 @@
+2021-09-12 12:47:18,515 INFO    MainThread:38792 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-12 12:47:18,515 INFO    MainThread:38792 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-12 12:47:18,516 WARNING MainThread:38792 [wandb_setup.py:_flush():69] interrupted
+Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-24-3435b262f1ae>", line 1, in <module>
+    trainer.train()
+  File "D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\vqa.py", line 139, in train
+    wandb.init(project=project_name)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_init.py", line 782, in init
+    raise e
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_init.py", line 758, in init
+    wi.setup(kwargs)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_init.py", line 155, in setup
+    wandb_login._login(anonymous=anonymous, force=force, _disable_warning=True)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_login.py", line 238, in _login
+    wlogin.prompt_api_key()
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_login.py", line 166, in prompt_api_key
+    no_create=self._settings.force,
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\lib\apikey.py", line 120, in prompt_api_key
+    key = input_callback(api_ask).strip()
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\ipykernel\kernelbase.py", line 834, in getpass
+    password=True,
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\ipykernel\kernelbase.py", line 892, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-09-12 12:47:18,517 INFO    MainThread:38792 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-12 12:47:18,517 INFO    MainThread:38792 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '6ac98d434d57ababc448734ccf4f45865f2b7b8e'}
+2021-09-12 12:47:18,517 INFO    MainThread:38792 [wandb_init.py:_log_setup():337] Logging user logs to D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\logs\debug.log
+2021-09-12 12:47:18,517 INFO    MainThread:38792 [wandb_init.py:_log_setup():338] Logging internal logs to D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\logs\debug-internal.log
+2021-09-12 12:47:18,517 INFO    MainThread:38792 [wandb_init.py:_jupyter_setup():288] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000029E86D2B508>
+2021-09-12 12:47:18,518 INFO    MainThread:38792 [wandb_init.py:init():370] calling init triggers
+2021-09-12 12:47:18,518 INFO    MainThread:38792 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {}
+2021-09-12 12:47:18,518 INFO    MainThread:38792 [wandb_init.py:init():419] starting backend
+2021-09-12 12:47:18,518 INFO    MainThread:38792 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2021-09-12 12:47:18,523 INFO    MainThread:38792 [backend.py:ensure_launched():135] starting backend process...
+2021-09-12 12:47:18,592 INFO    MainThread:38792 [backend.py:ensure_launched():140] started backend process with pid: 39768
+2021-09-12 12:47:18,593 INFO    MainThread:38792 [wandb_init.py:init():424] backend started and connected
+2021-09-12 12:47:18,604 INFO    MainThread:38792 [wandb_run.py:_label_probe_notebook():844] probe notebook
+2021-09-12 12:47:18,605 INFO    MainThread:38792 [wandb_run.py:_label_probe_notebook():851] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-09-12 12:47:18,606 INFO    MainThread:38792 [wandb_init.py:init():472] updated telemetry
+2021-09-12 12:47:18,606 INFO    MainThread:38792 [wandb_init.py:init():491] communicating current version
+2021-09-12 12:47:23,608 INFO    MainThread:38792 [wandb_init.py:init():496] got version response upgrade_message: "wandb version 0.12.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-09-12 12:47:23,609 INFO    MainThread:38792 [wandb_init.py:init():504] communicating run to backend with 30 second timeout
+2021-09-12 12:47:23,787 INFO    MainThread:38792 [wandb_init.py:init():529] starting run threads in backend
+2021-09-12 12:47:26,111 INFO    MainThread:38792 [wandb_run.py:_console_start():1623] atexit reg
+2021-09-12 12:47:26,112 INFO    MainThread:38792 [wandb_run.py:_redirect():1497] redirect: SettingsConsole.WRAP
+2021-09-12 12:47:26,112 INFO    MainThread:38792 [wandb_run.py:_redirect():1534] Wrapping output streams.
+2021-09-12 12:47:26,113 INFO    MainThread:38792 [wandb_run.py:_redirect():1558] Redirects installed.
+2021-09-12 12:47:26,113 INFO    MainThread:38792 [wandb_init.py:init():554] run started, returning control to user process
+2021-09-12 12:47:26,121 INFO    MainThread:38792 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-12 12:47:26,121 INFO    MainThread:38792 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-12 12:48:41,437 INFO    MainThread:38792 [wandb_config.py:__setitem__():141] config set __class__ = wandb.sdk.wandb_config.Config - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000029E86D5C6C8>>
+2021-09-12 12:48:41,437 INFO    MainThread:38792 [wandb_run.py:_config_callback():872] config_cb __class__ wandb.sdk.wandb_config.Config None
+2021-09-12 12:48:43,628 ERROR   MainThread:38792 [util.py:get_module():183] Error importing optional module wandb.sweeps_engine
+Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\util.py", line 178, in get_module
+    return import_module(name)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sweeps_engine\__init__.py", line 1, in <module>
+    from .run import next_run, stop_runs, SweepRun, RunState  # noqa
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sweeps_engine\run.py", line 7, in <module>
+    from pydantic import BaseModel, Field
+ModuleNotFoundError: No module named 'pydantic'
+2021-09-12 12:48:47,828 ERROR   MainThread:38792 [jupyter.py:notebook_metadata():158] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2021-09-12 12:48:47,839 INFO    MainThread:38792 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-12 12:48:47,839 INFO    MainThread:38792 [wandb_init.py:_log_setup():342] Logging user logs to D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124847-28pjpakr\logs\debug.log
+2021-09-12 12:48:47,839 INFO    MainThread:38792 [wandb_init.py:_log_setup():343] Logging internal logs to D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124847-28pjpakr\logs\debug-internal.log
+2021-09-12 12:48:47,839 INFO    MainThread:38792 [wandb_init.py:init():375] calling init triggers
+2021-09-12 12:48:47,840 INFO    MainThread:38792 [wandb_init.py:init():382] wandb.init called with sweep_config: {}
+config: {}
+2021-09-12 12:48:47,841 INFO    MainThread:38792 [wandb_init.py:init():424] starting backend
+2021-09-12 12:48:47,841 INFO    MainThread:38792 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2021-09-12 12:48:47,843 INFO    MainThread:38792 [backend.py:ensure_launched():135] starting backend process...
+2021-09-12 12:48:47,857 ERROR   MainThread:38792 [wandb_init.py:init():801] error
+Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_init.py", line 775, in init
+    run = wi.init()
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_init.py", line 427, in init
+    backend.ensure_launched()
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\backend\backend.py", line 137, in ensure_launched
+    self.wandb_process.start()
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\multiprocessing\process.py", line 112, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\multiprocessing\context.py", line 322, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\multiprocessing\popen_spawn_win32.py", line 89, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+_pickle.PicklingError: Can't pickle <function wandb_internal at 0x0000029E47FE1948>: it's not the same object as wandb.sdk.internal.internal.wandb_internal

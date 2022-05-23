@@ -1,0 +1,84 @@
+2021-09-12 12:47:19,408 INFO    MainThread:39768 [internal.py:wandb_internal():91] W&B internal server running at pid: 39768, started at: 2021-09-12 12:47:19.403180
+2021-09-12 12:47:19,410 INFO    WriterThread:39768 [datastore.py:open_for_write():80] open: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\run-2oqi5axy.wandb
+2021-09-12 12:47:19,410 DEBUG   HandlerThread:39768 [handler.py:handle_request():124] handle_request: check_version
+2021-09-12 12:47:19,412 DEBUG   SenderThread:39768 [sender.py:send():179] send: header
+2021-09-12 12:47:19,412 DEBUG   SenderThread:39768 [sender.py:send_request():193] send_request: check_version
+2021-09-12 12:47:23,609 DEBUG   SenderThread:39768 [sender.py:send():179] send: run
+2021-09-12 12:47:23,787 DEBUG   HandlerThread:39768 [handler.py:handle_request():124] handle_request: run_start
+2021-09-12 12:47:23,791 INFO    SenderThread:39768 [dir_watcher.py:__init__():168] watching files in: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files
+2021-09-12 12:47:23,791 INFO    SenderThread:39768 [sender.py:_start_run_threads():719] run started: 2oqi5axy with start time 1631465238
+2021-09-12 12:47:23,791 DEBUG   SenderThread:39768 [sender.py:send():179] send: summary
+2021-09-12 12:47:23,791 INFO    SenderThread:39768 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-09-12 12:47:24,900 INFO    Thread-12 :39768 [dir_watcher.py:_on_file_created():216] file/dir created: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\wandb-summary.json
+2021-09-12 12:47:26,044 DEBUG   HandlerThread:39768 [meta.py:__init__():39] meta init
+2021-09-12 12:47:26,044 DEBUG   HandlerThread:39768 [meta.py:__init__():53] meta init done
+2021-09-12 12:47:26,044 DEBUG   HandlerThread:39768 [meta.py:probe():210] probe
+2021-09-12 12:47:26,056 DEBUG   HandlerThread:39768 [meta.py:_setup_git():200] setup git
+2021-09-12 12:47:26,094 DEBUG   HandlerThread:39768 [meta.py:_setup_git():207] setup git done
+2021-09-12 12:47:26,094 DEBUG   HandlerThread:39768 [meta.py:_save_pip():57] save pip
+2021-09-12 12:47:26,095 DEBUG   HandlerThread:39768 [meta.py:_save_pip():71] save pip done
+2021-09-12 12:47:26,095 DEBUG   HandlerThread:39768 [meta.py:_save_conda():78] save conda
+2021-09-12 12:47:26,096 ERROR   HandlerThread:39768 [meta.py:_save_conda():85] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\internal\meta.py", line 83, in _save_conda
+    subprocess.call(["conda", "env", "export"], stdout=f)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\subprocess.py", line 339, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\subprocess.py", line 800, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\subprocess.py", line 1207, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-09-12 12:47:26,098 DEBUG   HandlerThread:39768 [meta.py:_save_conda():86] save conda done
+2021-09-12 12:47:26,099 DEBUG   HandlerThread:39768 [meta.py:probe():252] probe done
+2021-09-12 12:47:26,103 DEBUG   SenderThread:39768 [sender.py:send():179] send: files
+2021-09-12 12:47:26,104 INFO    SenderThread:39768 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-09-12 12:47:26,111 DEBUG   HandlerThread:39768 [handler.py:handle_request():124] handle_request: stop_status
+2021-09-12 12:47:26,111 DEBUG   SenderThread:39768 [sender.py:send_request():193] send_request: stop_status
+2021-09-12 12:47:26,123 DEBUG   HandlerThread:39768 [handler.py:handle_request():124] handle_request: pause
+2021-09-12 12:47:26,124 INFO    HandlerThread:39768 [handler.py:handle_request_pause():545] stopping system metrics thread
+2021-09-12 12:47:26,225 DEBUG   SenderThread:39768 [sender.py:send():179] send: stats
+2021-09-12 12:47:26,468 INFO    Thread-17 :39768 [upload_job.py:push():137] Uploaded file C:\Users\MASRY2~1.AP-\AppData\Local\Temp\tmpbgqkriqrwandb\33810k6i-wandb-metadata.json
+2021-09-12 12:47:26,910 INFO    Thread-12 :39768 [dir_watcher.py:_on_file_created():216] file/dir created: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\requirements.txt
+2021-09-12 12:47:26,911 INFO    Thread-12 :39768 [dir_watcher.py:_on_file_created():216] file/dir created: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\output.log
+2021-09-12 12:47:26,911 INFO    Thread-12 :39768 [dir_watcher.py:_on_file_created():216] file/dir created: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\conda-environment.yaml
+2021-09-12 12:47:26,911 INFO    Thread-12 :39768 [dir_watcher.py:_on_file_created():216] file/dir created: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\wandb-metadata.json
+2021-09-12 12:47:41,198 DEBUG   HandlerThread:39768 [handler.py:handle_request():124] handle_request: stop_status
+2021-09-12 12:47:41,198 DEBUG   SenderThread:39768 [sender.py:send_request():193] send_request: stop_status
+2021-09-12 12:47:56,291 DEBUG   HandlerThread:39768 [handler.py:handle_request():124] handle_request: stop_status
+2021-09-12 12:47:56,291 DEBUG   SenderThread:39768 [sender.py:send_request():193] send_request: stop_status
+2021-09-12 12:48:11,386 DEBUG   HandlerThread:39768 [handler.py:handle_request():124] handle_request: stop_status
+2021-09-12 12:48:11,386 DEBUG   SenderThread:39768 [sender.py:send_request():193] send_request: stop_status
+2021-09-12 12:48:26,486 DEBUG   HandlerThread:39768 [handler.py:handle_request():124] handle_request: stop_status
+2021-09-12 12:48:26,486 DEBUG   SenderThread:39768 [sender.py:send_request():193] send_request: stop_status
+2021-09-12 12:48:40,546 INFO    Thread-12 :39768 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\output.log
+2021-09-12 12:48:41,448 DEBUG   SenderThread:39768 [sender.py:send():179] send: config
+2021-09-12 12:48:41,628 DEBUG   HandlerThread:39768 [handler.py:handle_request():124] handle_request: stop_status
+2021-09-12 12:48:41,628 DEBUG   SenderThread:39768 [sender.py:send_request():193] send_request: stop_status
+2021-09-12 12:48:42,548 DEBUG   SenderThread:39768 [sender.py:send():179] send: summary
+2021-09-12 12:48:42,548 INFO    SenderThread:39768 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-09-12 12:48:42,571 INFO    Thread-12 :39768 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\wandb-summary.json
+2021-09-12 12:48:42,571 INFO    Thread-12 :39768 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\output.log
+2021-09-12 12:48:44,585 INFO    Thread-12 :39768 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\output.log
+2021-09-12 12:48:48,622 INFO    Thread-12 :39768 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\output.log
+2021-09-12 12:48:51,653 INFO    Thread-12 :39768 [dir_watcher.py:_on_file_modified():229] file/dir modified: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\config.yaml
+2021-09-12 12:48:57,240 WARNING MainThread:39768 [internal.py:is_dead():367] Internal process exiting, parent pid 38792 disappeared
+2021-09-12 12:48:57,240 ERROR   MainThread:39768 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-09-12 12:48:57,561 INFO    HandlerThread:39768 [handler.py:finish():658] shutting down handler
+2021-09-12 12:48:57,561 INFO    WriterThread:39768 [datastore.py:close():288] close: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\run-2oqi5axy.wandb
+2021-09-12 12:48:57,669 INFO    SenderThread:39768 [sender.py:finish():947] shutting down sender
+2021-09-12 12:48:57,669 INFO    SenderThread:39768 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-09-12 12:48:57,718 INFO    SenderThread:39768 [dir_watcher.py:finish():312] scan: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files
+2021-09-12 12:48:57,718 INFO    SenderThread:39768 [dir_watcher.py:finish():318] scan save: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\conda-environment.yaml conda-environment.yaml
+2021-09-12 12:48:57,718 INFO    SenderThread:39768 [dir_watcher.py:finish():318] scan save: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\config.yaml config.yaml
+2021-09-12 12:48:57,718 INFO    SenderThread:39768 [dir_watcher.py:finish():318] scan save: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\output.log output.log
+2021-09-12 12:48:57,719 INFO    SenderThread:39768 [dir_watcher.py:finish():318] scan save: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\requirements.txt requirements.txt
+2021-09-12 12:48:57,722 INFO    SenderThread:39768 [dir_watcher.py:finish():318] scan save: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\wandb-metadata.json wandb-metadata.json
+2021-09-12 12:48:57,724 INFO    SenderThread:39768 [dir_watcher.py:finish():318] scan save: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\wandb-summary.json wandb-summary.json
+2021-09-12 12:48:57,728 INFO    SenderThread:39768 [file_pusher.py:finish():177] shutting down file pusher
+2021-09-12 12:48:57,729 INFO    SenderThread:39768 [file_pusher.py:join():182] waiting for file pusher
+2021-09-12 12:48:58,030 INFO    Thread-21 :39768 [upload_job.py:push():137] Uploaded file D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\wandb-summary.json
+2021-09-12 12:48:58,039 INFO    Thread-20 :39768 [upload_job.py:push():137] Uploaded file D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\requirements.txt
+2021-09-12 12:48:58,104 INFO    Thread-19 :39768 [upload_job.py:push():137] Uploaded file D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\output.log
+2021-09-12 12:48:58,105 INFO    Thread-18 :39768 [upload_job.py:push():137] Uploaded file D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124718-2oqi5axy\files\config.yaml
+2021-09-12 12:48:58,806 INFO    MainThread:39768 [internal.py:handle_exit():78] Internal process exited

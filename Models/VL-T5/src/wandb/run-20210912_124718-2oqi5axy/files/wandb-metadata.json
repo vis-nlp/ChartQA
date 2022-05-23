@@ -1,0 +1,26 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-09-12T16:47:26.044518",
+    "startedAt": "2021-09-12T16:47:18.514570",
+    "docker": null,
+    "gpu": "GeForce RTX 2070 Super",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\masry20.AP-7KRKHX2\\AppData\\Roaming\\jupyter\\runtime\\kernel-1fb5ee92-15c6-4637-a764-4013bb4551b2.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://AhmedMasryKU:@github.com/AhmedMasryKU/VL-T5-VQA.git",
+        "commit": null
+    },
+    "email": "amasry17@ku.edu.tr",
+    "root": "D:/York University/ChartQA/VL-T5-VQA",
+    "host": "AP-7KRKHX2",
+    "username": "masry20",
+    "executable": "C:\\Users\\masry20.AP-7KRKHX2\\anaconda3\\envs\\chartqa1\\python.exe"
+}

@@ -1,0 +1,26 @@
+2021-09-12 12:48:47,839 INFO    MainThread:38792 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-12 12:48:47,839 INFO    MainThread:38792 [wandb_init.py:_log_setup():342] Logging user logs to D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124847-28pjpakr\logs\debug.log
+2021-09-12 12:48:47,839 INFO    MainThread:38792 [wandb_init.py:_log_setup():343] Logging internal logs to D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\wandb\run-20210912_124847-28pjpakr\logs\debug-internal.log
+2021-09-12 12:48:47,839 INFO    MainThread:38792 [wandb_init.py:init():375] calling init triggers
+2021-09-12 12:48:47,840 INFO    MainThread:38792 [wandb_init.py:init():382] wandb.init called with sweep_config: {}
+config: {}
+2021-09-12 12:48:47,841 INFO    MainThread:38792 [wandb_init.py:init():424] starting backend
+2021-09-12 12:48:47,841 INFO    MainThread:38792 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2021-09-12 12:48:47,843 INFO    MainThread:38792 [backend.py:ensure_launched():135] starting backend process...
+2021-09-12 12:48:47,857 ERROR   MainThread:38792 [wandb_init.py:init():801] error
+Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_init.py", line 775, in init
+    run = wi.init()
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_init.py", line 427, in init
+    backend.ensure_launched()
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\backend\backend.py", line 137, in ensure_launched
+    self.wandb_process.start()
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\multiprocessing\process.py", line 112, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\multiprocessing\context.py", line 322, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\multiprocessing\popen_spawn_win32.py", line 89, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+_pickle.PicklingError: Can't pickle <function wandb_internal at 0x0000029E47FE1948>: it's not the same object as wandb.sdk.internal.internal.wandb_internal

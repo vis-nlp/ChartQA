@@ -1,0 +1,237 @@
+[autoreload of wandb failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 630, in _exec
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\__init__.py", line 49, in <module>
+    sweep = wandb_sdk.sweep
+AttributeError: module 'wandb.sdk' has no attribute 'sweep'
+]
+[autoreload of graphql failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 630, in _exec
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\graphql\__init__.py", line 46, in <module>
+    from .graphql import graphql, graphql_sync
+ImportError: cannot import name 'graphql_sync' from 'graphql.graphql' (C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\vendor\graphql-core-1.1\graphql\graphql.py)
+]
+[autoreload of graphql.type.definition failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 317, in update_class
+    update_instances(old, new)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 280, in update_instances
+    ref.__class__ = new
+TypeError: __class__ assignment: 'GraphQLScalarType' object layout differs from 'GraphQLScalarType'
+]
+[autoreload of graphql.language.ast failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 317, in update_class
+    update_instances(old, new)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 280, in update_instances
+    ref.__class__ = new
+TypeError: __class__ assignment: 'Document' object layout differs from 'Document'
+]
+[autoreload of graphql.type.directives failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 630, in _exec
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\vendor\graphql-core-1.1\graphql\type\directives.py", line 78, in <module>
+    type=GraphQLNonNull(GraphQLBoolean),
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\vendor\graphql-core-1.1\graphql\type\definition.py", line 611, in __init__
+    'Can only create NonNull of a Nullable GraphQLType but got: {}.'.format(type)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\vendor\graphql-core-1.1\graphql\type\definition.py", line 136, in __str__
+    return self.name
+TypeError: descriptor 'name' for 'GraphQLScalarType' objects doesn't apply to 'GraphQLScalarType' object
+]
+[autoreload of wandb.apis.public failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 630, in _exec
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\apis\public.py", line 191, in <module>
+    class Api(object):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\apis\public.py", line 222, in Api
+    """
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\gql\gql.py", line 8, in gql
+    source = Source(request_string, 'GraphQL request')
+TypeError: descriptor 'body' for 'Source' objects doesn't apply to 'Source' object
+]
+[autoreload of wandb.sdk.wandb_settings failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 317, in update_class
+    update_instances(old, new)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 280, in update_instances
+    ref.__class__ = new
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_settings.py", line 972, in __setattr__
+    self._update({name: value}, _source=self.Source.SETUP)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_settings.py", line 814, in _update
+    raise TypeError("Settings object is frozen")
+TypeError: Settings object is frozen
+]
+[autoreload of wandb.proto.wandb_internal_pb2 failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 630, in _exec
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\proto\wandb_internal_pb2.py", line 25, in <module>
+    dependencies=[google_dot_protobuf_dot_timestamp__pb2.DESCRIPTOR,wandb_dot_proto_dot_wandb__telemetry__pb2.DESCRIPTOR,])
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\google\protobuf\descriptor.py", line 965, in __new__
+    return _message.default_pool.AddSerializedFile(serialized_pb)
+TypeError: Couldn't build proto file into descriptor pool!
+Invalid proto descriptor for file "wandb/proto/wandb_internal.proto":
+  wandb/proto/wandb_internal.proto: A file with this name is already in the pool.
+]
+[autoreload of wandb.proto.wandb_telemetry_pb2 failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 630, in _exec
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\proto\wandb_telemetry_pb2.py", line 21, in <module>
+    serialized_pb=b'\n!wandb/proto/wandb_telemetry.proto\x12\x0ewandb_internal\"\xae\x02\n\x0fTelemetryRecord\x12-\n\x0cimports_init\x18\x01 \x01(\x0b\x32\x17.wandb_internal.Imports\x12/\n\x0eimports_finish\x18\x02 \x01(\x0b\x32\x17.wandb_internal.Imports\x12(\n\x07\x66\x65\x61ture\x18\x03 \x01(\x0b\x32\x17.wandb_internal.Feature\x12\x16\n\x0epython_version\x18\x04 \x01(\t\x12\x13\n\x0b\x63li_version\x18\x05 \x01(\t\x12\x1b\n\x13huggingface_version\x18\x06 \x01(\t\x12 \n\x03\x65nv\x18\x08 \x01(\x0b\x32\x13.wandb_internal.Env\x12%\n\x05label\x18\t \x01(\x0b\x32\x16.wandb_internal.Labels\"\x85\x02\n\x07Imports\x12\r\n\x05torch\x18\x01 \x01(\x08\x12\r\n\x05keras\x18\x02 \x01(\x08\x12\x12\n\ntensorflow\x18\x03 \x01(\x08\x12\x0e\n\x06\x66\x61stai\x18\x04 \x01(\x08\x12\x0f\n\x07sklearn\x18\x05 \x01(\x08\x12\x0f\n\x07xgboost\x18\x06 \x01(\x08\x12\x10\n\x08\x63\x61tboost\x18\x07 \x01(\x08\x12\x10\n\x08lightgbm\x18\x08 \x01(\x08\x12\x19\n\x11pytorch_lightning\x18\t \x01(\x08\x12\x16\n\x0epytorch_ignite\x18\n \x01(\x08\x12 \n\x18transformers_huggingface\x18\x0b \x01(\x08\x12\x0b\n\x03jax\x18\x0c \x01(\x08\x12\x10\n\x08metaflow\x18\r \x01(\x08\"\xd9\x01\n\x07\x46\x65\x61ture\x12\r\n\x05watch\x18\x01 \x01(\x08\x12\x0e\n\x06\x66inish\x18\x02 \x01(\x08\x12\x0c\n\x04save\x18\x03 \x01(\x08\x12\x0f\n\x07offline\x18\x04 \x01(\x08\x12\x0f\n\x07resumed\x18\x05 \x01(\x08\x12\x0c\n\x04grpc\x18\x06 \x01(\x08\x12\x0e\n\x06metric\x18\x07 \x01(\x08\x12\r\n\x05keras\x18\x08 \x01(\x08\x12\x11\n\tsagemaker\x18\t \x01(\x08\x12\x1c\n\x14\x61rtifact_incremental\x18\n \x01(\x08\x12\x10\n\x08metaflow\x18\x0b \x01(\x08\x12\x0f\n\x07prodigy\x18\x0c \x01(\x08\"\xa0\x01\n\x03\x45nv\x12\x0f\n\x07jupyter\x18\x01 \x01(\x08\x12\x0e\n\x06kaggle\x18\x02 \x01(\x08\x12\x0f\n\x07windows\x18\x03 \x01(\x08\x12\x0e\n\x06m1_gpu\x18\x04 \x01(\x08\x12\x13\n\x0bstart_spawn\x18\x05 \x01(\x08\x12\x12\n\nstart_fork\x18\x06 \x01(\x08\x12\x18\n\x10start_forkserver\x18\x07 \x01(\x08\x12\x14\n\x0cstart_thread\x18\x08 \x01(\x08\"H\n\x06Labels\x12\x13\n\x0b\x63ode_string\x18\x01 \x01(\t\x12\x13\n\x0brepo_string\x18\x02 \x01(\t\x12\x14\n\x0c\x63ode_version\x18\x03 \x01(\tb\x06proto3'
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\google\protobuf\descriptor.py", line 965, in __new__
+    return _message.default_pool.AddSerializedFile(serialized_pb)
+TypeError: Couldn't build proto file into descriptor pool!
+Invalid proto descriptor for file "wandb/proto/wandb_telemetry.proto":
+  wandb/proto/wandb_telemetry.proto: A file with this name is already in the pool.
+]
+Error in callback <function _WandbInit._resume_backend at 0x0000029E86D33D38> (for pre_run_cell):
+[autoreload of wandb.sdk.wandb_run failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 317, in update_class
+    update_instances(old, new)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 280, in update_instances
+    ref.__class__ = new
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_run.py", line 405, in __setattr__
+    super(Run, self).__setattr__(attr, value)
+TypeError: super(type, obj): obj must be an instance or subtype of type
+]
+[autoreload of watchdog.events failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 302, in update_class
+    if update_generic(old_obj, new_obj): continue
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 266, in update_function
+    setattr(old, name, getattr(new, name))
+ValueError: dispatch() requires a code object with 0 free vars, not 1
+]
+[autoreload of watchdog.utils.bricks failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 410, in superreload
+    update_generic(old_obj, new_obj)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 302, in update_class
+    if update_generic(old_obj, new_obj): continue
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 347, in update_generic
+    update(a, b)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 266, in update_function
+    setattr(old, name, getattr(new, name))
+ValueError: _init() requires a code object with 0 free vars, not 1
+]
+[autoreload of wandb.wandb_controller failed: Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 245, in check
+    superreload(m, reload, self.old_objects)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\IPython\extensions\autoreload.py", line 394, in superreload
+    module = reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\importlib\__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 630, in _exec
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\wandb_controller.py", line 76, in <module>
+    required="This module requires wandb to be built with the local "
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\util.py", line 185, in get_module
+    raise wandb.Error(required)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\errors\__init__.py", line 5, in __init__
+    super(Error, self).__init__(message)
+TypeError: super(type, obj): obj must be an instance or subtype of type
+]
+Problem at: D:\York University\ChartQA\VL-T5-VQA\VL-T5\src\vqa.py 139 train
+Traceback (most recent call last):
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_init.py", line 775, in init
+    run = wi.init()
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\wandb_init.py", line 427, in init
+    backend.ensure_launched()
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\site-packages\wandb\sdk\backend\backend.py", line 137, in ensure_launched
+    self.wandb_process.start()
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\multiprocessing\process.py", line 112, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\multiprocessing\context.py", line 322, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\multiprocessing\popen_spawn_win32.py", line 89, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Users\masry20.AP-7KRKHX2\anaconda3\envs\chartqa1\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
