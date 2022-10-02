@@ -49,7 +49,7 @@ bash scripts/VQA_VLT5_inference.sh gpus_number
  
 # Generating the Charts Visual Features Json Files
 The code is adapted from [Detectron2](https://detectron2.readthedocs.io/en/latest/tutorials/getting_started.html)
-# Training Mask RCNN Model
+## Training Mask RCNN Model
 To train the Mask RCNN model, you can run the [train.py](https://github.com/vis-nlp/ChartQA/blob/main/Models/VL-T5/Mask-RCNN/train.py) script as follows:
 
 ```
@@ -81,7 +81,7 @@ a dictionary of img_names and img_data
    bboxes: a list of tuples (class_name [x0, y0, x1, y1])
    masks: a list of lists (e.g., for a rectangle [x0, y0, x1, y0, x1, y1, x0, y1, x0, y0]) # for other shapes like pie, please refer to the Appendix of the paper. 
 ```
-# Inference (generating the visual features)
+## Inference (generating the visual features)
 In order to generate the visual features using your trained Mask RCNN model, you can also use the [Mask RCNN - ChartQA Colab Notebook](https://github.com/vis-nlp/ChartQA/blob/main/Models/VL-T5/Mask-RCNN/Mask_RCNN_ChartQA.ipynb). You first need to update the following parameters with your desired values:
 ```
 trained_model_path = "model_final_all.pth"
