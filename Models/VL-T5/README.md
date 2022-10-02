@@ -90,4 +90,4 @@ save_path = "/content/output_feats/"
 CLASSES_NUM = 15
 ```
 After that, you can run all the cells under the Inference Section in the colab notebook. 
-** If you don't want to waste time training a new model, you can generate the visual features of the chart images using [our trained Mask RCNN model](https://drive.google.com/file/d/1UgXmggU6P-d9GE6tdZrZsfc61ZuGcvSA/view?usp=sharing) which we finetuned on all the datasets used in our paper (FigureQA, PlotQA, DVQA, ChartQA). **
+**If you don't want to waste time training a new model, you can generate the visual features of the chart images using [our trained Mask RCNN model](https://drive.google.com/file/d/1UgXmggU6P-d9GE6tdZrZsfc61ZuGcvSA/view?usp=sharing) which we finetuned on all the datasets used in our paper (FigureQA, PlotQA, DVQA, ChartQA).**
