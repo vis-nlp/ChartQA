@@ -5,6 +5,7 @@
 
 ## Updates
 * VisionTaPas and the ChartOCR (extended) codes will be released very soon. 
+* Added the Mask-RCNN training and inference codes to generate the visual features for VL-T5
 * Added the full ChartQA dataset (including the bounding boxes annotations)
 * Added T5 and VL-T5 models codes along with the instructions. 
 * Added the first version of the ChartQA dataset (does not have the annotations folder)
