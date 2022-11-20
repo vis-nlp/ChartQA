@@ -81,6 +81,7 @@ a dictionary of img_names and img_data
    bboxes: a list of tuples (class_name [x0, y0, x1, y1])
    masks: a list of lists (e.g., for a rectangle [x0, y0, x1, y0, x1, y1, x0, y1, x0, y0]) # for other shapes like pie, please refer to the Appendix of the paper. 
 ```
+We have also added an example notebook to show you how to generate these pickle files from the FigureQA (for all chart types like bar, line, and pie charts): [Mask RCNN Training Data Generating Script](https://github.com/vis-nlp/ChartQA/blob/main/Models/VL-T5/Mask-RCNN/Prepare%20Mask-RCNN%20Training%20Data%20-%20FigureQA.ipynb)
 ## Inference (generating the visual features)
 In order to generate the visual features using your trained Mask RCNN model, you can also use the [Mask RCNN - ChartQA Colab Notebook](https://github.com/vis-nlp/ChartQA/blob/main/Models/VL-T5/Mask-RCNN/Mask_RCNN_ChartQA.ipynb). You first need to update the following parameters with your desired values:
 ```
