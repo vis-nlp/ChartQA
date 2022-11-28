@@ -4,7 +4,7 @@
 * Paper Link: [ChartQA](https://aclanthology.org/2022.findings-acl.177/)
 
 ## Updates
-* VisionTaPas and the ChartOCR (extended) codes will be released very soon. 
+* Added VisionTaPas Model
 * Added the Mask-RCNN training and inference codes to generate the visual features for VL-T5
 * Added the full ChartQA dataset (including the bounding boxes annotations)
 * Added T5 and VL-T5 models codes along with the instructions. 
@@ -74,8 +74,18 @@ general_figure_info: It is a dictionary containng the following keys-
 ```
 ## Models
 
+### VL-T5
+Please refer to [VL-T5](https://github.com/vis-nlp/ChartQA/tree/main/Models/VL-T5)
+
+### T5 
+Please refer to [T5](https://github.com/vis-nlp/ChartQA/tree/main/Models/T5)
+
+### VisionTapas
+Please refer to [VisionTapas](https://github.com/vis-nlp/ChartQA/tree/main/Models/VisionTapas)
+
 # Contact
-If you have any questions about this work, please contact **Ahmed Masry** using the following email addresses: **amasry17@ku.edu.tr** And **masry20@yorku.ca**
+If you have any questions about this work, please contact **Ahmed Masry** using the following email address: **amasry17@ku.edu.tr**.
+Please note that my school email which was mentioned in the paper (**masry20@yorku.ca**) has been deactivated since I have already graduated. 
 
 # Reference
 Please cite our paper if you use our models or dataset in your research. 
