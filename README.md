@@ -2,12 +2,14 @@
 
 * Authors: Ahmed Masry, Do Long, Jia Qing Tan, Shafiq Joty, Enamul Hoque
 * Paper Link: [ChartQA](https://aclanthology.org/2022.findings-acl.177/)
-* **[NEW]** If you are looking for powerful Chart Models, checkout out our following models:
+* **[NEW]** If you are looking for powerful Chart Models, explore our latest models for chart understanding:
     * [UniChart](https://github.com/vis-nlp/UniChart)
-        * This is a very lightweight model (140M parameters only) that works really well for ChartQA, Chart to Table, Chart Summarization, and Open-ended QA.
+        * A lightweight model (140M parameters) excelling in ChartQA, Chart-to-Table, Chart Summarization, and Open-ended QA.
     * [ChartInstruct](https://github.com/vis-nlp/ChartInstruct)
-        * This is our Chart Large Language Model that builds upon LLaVA and LLama2 (7B parameters)! It's a general purpose chart understanding model that works for a variety of tasks!
-    * **Both Models are very easy to run with a few lines of code and they also have public web demoes! Check their github repos for details**
+        * Our advanced Chart Large Language Model based on LLaVA, supporting LLama2 (7B) and Flan-T5-XL (3B). Perfect for a wide range of chart-related tasks.
+    * [ChartGemma](https://github.com/vis-nlp/ChartGemma)
+        * The state-of-the-art Chart LLM built on PaliGemma (3B), optimized for visual reasoning tasks. 	
+    * **All models are user-friendly and can be run with just a few lines of code. Public web demos are available! Check out their GitHub repositories for more details.**
 
 ## Updates
 * Added VisionTaPas Model
