@@ -1,8 +1,11 @@
 # ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning
 
 * Authors: Ahmed Masry, Do Long, Jia Qing Tan, Shafiq Joty, Enamul Hoque
+
+🚨 **New benchmark alert!** Check out our new [ChartQAPro](https://github.com/vis-nlp/ChartQAPro): a more diverse, challenging dataset for real-world chart question answering. 🧠📊
+
 * Paper Link: [ChartQA](https://aclanthology.org/2022.findings-acl.177/)
-* **[NEW]** If you are looking for powerful Chart Models, explore our latest models for chart understanding:
+* If you are looking for powerful Chart Models, explore our latest models for chart understanding:
     * [UniChart](https://github.com/vis-nlp/UniChart)
         * A lightweight model (140M parameters) excelling in ChartQA, Chart-to-Table, Chart Summarization, and Open-ended QA.
     * [ChartInstruct](https://github.com/vis-nlp/ChartInstruct)
